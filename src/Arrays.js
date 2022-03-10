@@ -5,8 +5,8 @@
 */
 export function arraySorting(data) {
   data = data.split(',');
-  data.sort((a,b)=> a-b)
-  data.join(',')
+  data.sort((a,b)=> a-b);
+  data = data.join(',');
   return data;
 }
 
